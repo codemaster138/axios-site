@@ -1,4 +1,4 @@
-# Axios Website Desing
+# Axios Website Design
 > **Disclaimer:** as of right now, the axios project and its authors are not affiliated with, and do not endorse this site. It is simply a community project to create a website for the axios project.
 
 Most information about this project can be found [here](https://github.com/axios/axios/issues/3505#issue-776056722).
