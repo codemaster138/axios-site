@@ -172,6 +172,8 @@ aside {
   transition: -webkit-transform 300ms;
   transition: transform 300ms;
   transition: transform 300ms, -webkit-transform 300ms;
+  overflow-y: scroll;
+  height: calc(100vh - 5.6rem);
 }
 
 aside h3 {
@@ -342,7 +344,8 @@ main * {
   body aside {
     -webkit-transform: translateX(0) !important;
             transform: translateX(0) !important;
-    height: 100vw;
+    height: 100vh;
+    max-height: 100vh;
     top: 0;
   }
   body header {
