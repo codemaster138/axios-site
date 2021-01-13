@@ -427,6 +427,37 @@ section#hero div.content .buttons {
   font-style: italic;
 }
 
+footer {
+  width: 100vw;
+  padding: 40px calc(var(--margin) / 2);
+  background: #f2edf5;
+  color: #000;
+  font-weight: 300;
+  font-size: 13.5px;
+}
+
+footer table {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+footer table td, footer table th {
+  text-align: left;
+}
+
+footer .row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 @-webkit-keyframes appear {
   0% {
     opacity: 0;

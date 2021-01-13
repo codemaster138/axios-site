@@ -123,6 +123,31 @@ section#hero {
   }
 }
 
+footer {
+  width: 100vw;
+  padding: 40px calc(var(--margin) / 2);
+  background: #f2edf5;
+  color: #000;
+  font-weight: 300;
+  font-size: 13.5px;
+
+  table {
+    width: 100%;
+    margin-bottom: 40px;
+
+    td, th {
+      text-align: left;
+    }
+  }
+
+  .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
 @keyframes appear {
   0% {
     opacity: 0;
