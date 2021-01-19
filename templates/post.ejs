@@ -39,6 +39,7 @@
             </a>
         </div>
         <h3 class="group-name">Navitation</h3>
+        <a href="/<%=(post.lang === 'primary') ? '' : post.lang%>">Home</a>
         <nav>
             <% posts.config.navLinks.forEach(function (link) { if (link.text) { %>
                 <a href="<%= link.href %>" class="<%- link.href === '/docs' ? 'selected' : ''%>">

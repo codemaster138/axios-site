@@ -15,10 +15,7 @@ const config = {
     blogName: `Axios Docs`,
     ownerName: `The Axios Project`,
     description: `Promise based HTTP client for the browser and node.js`,
-    navLinks: [{
-            href: '/',
-            text: 'Home'
-        },
+    navLinks: [
         {
             href: '/docs',
             text: 'Docs'
